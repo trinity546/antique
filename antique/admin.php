@@ -6,7 +6,7 @@
     // render the whole page using PHPTAL
 
     // finally, create a new template object
-    $template = new PHPTAL('admin_s.xhtml');
+    $template = new PHPTAL('admin.xhtml');
 
     // now add the variables for processing and that you created from above:
     $template->page_title = "Admin Signup";
